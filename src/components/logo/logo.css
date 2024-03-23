@@ -1,0 +1,9 @@
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo__image {
+    width: 25px;
+}
