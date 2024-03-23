@@ -1,0 +1,11 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main__shrek {
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

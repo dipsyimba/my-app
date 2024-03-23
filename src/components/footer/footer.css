@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+
+.footer__text {
+    text-align: center;
+    font-size: 30px;
+}
+
+.footer__container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
