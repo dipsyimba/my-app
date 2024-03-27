@@ -1,11 +1,36 @@
 .main {
     display: flex;
-    justify-content: center;
+    flex-direction: row-reverse;
 }
 
-.main__shrek {
-    width: 100px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+.main__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-right: 4%;
+}
+
+.main__text {
+    font-size: 25px;
+    max-width: 300px;
+    color: #ffef4b;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+}
+
+.main__image {
+    height: 300px;
+}
+
+.main__community {
+    font-size: 25px;
+    max-width: 300px;
+    color: #ffef4b;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 10px;
 }

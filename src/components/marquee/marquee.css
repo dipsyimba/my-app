@@ -2,9 +2,10 @@
     padding: 5px;
     margin: 0;
     background-color: #000;
-    color: #46E83B;
+    color: #ffef4b;
 }
-.marquee__text {
-
+.marquee__bottom {
+    position: absolute;
+    bottom: 0;
 }
 

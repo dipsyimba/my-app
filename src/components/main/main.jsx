@@ -1,11 +1,29 @@
 import React from 'react';
+import Logo from '../logo/logo';
+import tg from '../../images/telegram.png';
+import twitter from '../../images/twitter.png';
 
 function Main() {
+    const items = [
+        {
+            src: tg,
+            link: ''
+        },
+        {
+            src: twitter,
+            link: 'https://twitter.com/username1'
+        }
+    ]
   return (
     <div className='main'>
-       <img src="https://assets-global.website-files.com/65f83b3105820ff83ec7d9ec/65f846fee1e3ac9a43131d16_Group.png"
-            className="main__shrek" alt="Shrek"
-        />
+        <div className="main__container">
+            <div className="main__community">
+                <Logo items={items}/>
+            </div>
+            <div className="main__text">
+                $DONKWIF is the inaugural token set to revolutionize the meme token market, serving as a litmus test to identify those who fail to invest in meme tokens as donkeys
+            </div>
+        </div>
     </div>
   );
 }

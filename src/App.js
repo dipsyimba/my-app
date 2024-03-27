@@ -1,14 +1,14 @@
 import './App.css';
 import Header from './components/header/header';
 import Main from "./components/main/main";
-import Footer from "./components/footer/footer";
+import Marquee from "./components/marquee/marquee";
 
 function App() {
   return (
     <div className="App">
       <Header/>
         <Main/>
-        <Footer/>
+        <Marquee bottom={true}/>
     </div>
   );
 }

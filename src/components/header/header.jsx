@@ -1,15 +1,15 @@
 import React from 'react';
 import './header.css';
 import Marquee from "../marquee/marquee";
-import img from "../../images/photo_2024-03-23_17-19-50 (2).jpg";
+import img from "../../images/DONKWIF.jpg";
 
 function Header() {
   return (
       <div className="header__container">
           <Marquee/>
-          <img src={img} alt="Donkey" className="header__image"/>
+
           <div className='header'>
-              <p className='header_text'>Welcome to Donkey Token</p>
+              <p className='header_text'>Welcome to $DONKWIF Token</p>
           </div>
       </div>
   );

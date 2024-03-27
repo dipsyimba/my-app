@@ -1,9 +1,13 @@
-.logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.logo__text {
+    margin-bottom: 10px;
 }
 
 .logo__image {
-    width: 25px;
+    width: 35px;
+
+}
+.logo__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
