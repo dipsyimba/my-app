@@ -7,11 +7,11 @@ function Main() {
     const items = [
         {
             src: tg,
-            link: ''
+            link: 'https://t.me/donkwif'
         },
         {
             src: twitter,
-            link: 'https://twitter.com/username1'
+            link: 'https://twitter.com/donkeytkn'
         }
     ]
   return (
